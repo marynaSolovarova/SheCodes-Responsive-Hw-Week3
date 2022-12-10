@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+  margin-top: 50px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  text-decoration: none;
+}
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-me {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about-me {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.homepage {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.two-coloumns {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+}
+.two-coloumns p {
+  margin: 10px;
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  flex: 1;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
