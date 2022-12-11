@@ -2,51 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <meta name='description' content="Information about Fullstack developer Maryna Solovarova"/>
-    <title>Fullstack developer CV</title>
-    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+   
+    <title>About Maryna Solovarova</title>
   </head>
   <body>
-    <a href="inde.html" class="homepage">Back to homepage</a>
-    <h1>About me</h1>
-    <h3>Fullstack developer from Donetsk, Ukraine</h3>
-    <div class="two-coloumns">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-
-        <br />
-        <br />
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-
-        <br />
-        <br />
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div id="contact-me">
-      <h2>📮Contact me</h2>
-      <a href="mailto:kimseokjinshi@gmail.com" class="link"
-        >kimseokjinshi@gmail.com</a
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">Maryna Solovarova</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html#contact">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="text-center mt-5">About me</h1>
+    <h3 class="text-center">Fullstack developer from Donetsk, Ukraine</h3>
+    <div class="about-paragraphs text-center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </p>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded mb-5" alt="Yoga girl"/>
+        </div>
+        <div class="col-sm-4">
+          <img src="images/weather.png" class="img-fluid p-2 shadow rounded mb-5" alt="Weather app"/>
+        </div>
+        <div class="col-sm-4">
+          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded mb-5" alt="Yogurt app"/>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">📮 Contact me</h2>
+      <a href="mailto:kimseokjinshi@gmail.com" class="email-link" title="Email">
+        kimseokjinshi@gmail.com
+      </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
